@@ -3,9 +3,9 @@
 // Test case
 var points = new List<Point>
         {
-            new Point(0, 0),
-            new Point(5, 4),
-            new Point(3, 1)
+            new(0, 0),
+            new(5, 4),
+            new(3, 1)
         };
 
 var central = new Point(1, 2);
@@ -16,10 +16,10 @@ Console.WriteLine($"Nearest {k} points: {string.Join(", ", result)}"); // [(0, 0
 // Additional test case
 var points2 = new List<Point>
         {
-            new Point(1, 1),
-            new Point(2, 2),
-            new Point(3, 3),
-            new Point(0, 0)
+            new(1, 1),
+            new(2, 2),
+            new(3, 3),
+            new(0, 0)
         };
 
 var central2 = new Point(2, 2);
